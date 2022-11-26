@@ -27,7 +27,9 @@ export default function Home() {
       <main className="bg-white px-10 md:px-20 lg:px-40 dark:bg-gray-900">
         <section className="  min-h-screen">
           <nav className=" py-10 mb-12 flex justify-between">
-            <h1 className=" text-xl font-burtons">developedBy</h1>
+            <h1 className=" text-xl font-burtons dark:text-white">
+              developedBy
+            </h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -49,8 +51,10 @@ export default function Home() {
             <h2 className=" text-5xl py-2 text-teal-600 font-medium md:text-6xl">
               Arminas Vilunas
             </h2>
-            <h3 className="text-2xl py-2 md:text:3xl">React Developer.</h3>
-            <p className=" text-md py-5 leading-8 text-gray-800 md: text-xl max-w-lg mx-auto">
+            <h3 className="text-2xl py-2 md:text:3xl dark:text-gray-50">
+              React Developer.
+            </h3>
+            <p className=" text-md py-5 leading-8 text-gray-800 md: text-xl max-w-lg mx-auto dark:text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error
               autem aliquid consequatur tenetur, consequuntur soluta
               voluptatibus ex commodi provident, molestiae quos quibusdam
@@ -68,8 +72,10 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className=" text-3xl py-1">Services I offer</h3>
-            <p className=" text-md py-5 leading-8 text-gray-800">
+            <h3 className=" text-3xl py-1 dark:text-gray-50">
+              Services I offer
+            </h3>
+            <p className=" text-md py-5 leading-8 text-gray-800 dark:text-gray-300">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
               non autem obcaecati sapiente harum amet eaque placeat rem
               explicabo ut sunt quibusdam animi assumenda aliquid quis, soluta
@@ -80,7 +86,7 @@ export default function Home() {
             </p>
           </div>
           <div className=" lg:flex gap-10">
-            <div className="  text-center shadow-lg p-10 rounded-xl my-10">
+            <div className="  text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
                 src={design}
                 width={100}
@@ -101,7 +107,7 @@ export default function Home() {
               <p className=" text-gray-800 py-1">Photoshop</p>
               <p className=" text-gray-800 py-1">Figma</p>
             </div>
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
                 src={code}
                 width={100}
@@ -122,7 +128,7 @@ export default function Home() {
               <p className=" text-gray-800 py-1">Photoshop</p>
               <p className=" text-gray-800 py-1">Figma</p>
             </div>
-            <div className=" text-center shadow-lg p-10 rounded-xl my-10">
+            <div className=" text-center shadow-lg p-10 rounded-xl my-10 dark:bg-white">
               <Image
                 src={consulting}
                 width={100}
@@ -147,8 +153,8 @@ export default function Home() {
         </section>
         <section>
           <div>
-            <h3 className=" text-3xl py-1">Portfolio</h3>
-            <p className=" text-md py-5 leading-8 text-gray-800">
+            <h3 className=" text-3xl py-1 dark:text-gray-50">Portfolio</h3>
+            <p className=" text-md py-5 leading-8 text-gray-800 dark:text-gray-300">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis
               non autem obcaecati sapiente harum amet eaque placeat rem
               explicabo ut sunt quibusdam animi assumenda aliquid quis, soluta
